@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="cuerpo">
+            <div class="hijo">
+                <div class="sep">
+                    <span class="michi">#</span>
+                    <input type="text" id="rojo" class="color HEX" oninput="solo2Digitos(rojoHEX)">
+                    <input type="text" id="verde" class="color HEX" oninput="solo2Digitos(verdeHEX)">
+                    <input type="text" id="azul" class="color HEX" oninput="solo2Digitos(azulHEX)">
+                </div>
+                <div class="sep">
+                    <button onclick="mostrarElRGB()">Convertir a rgb</button>
+                </div>
+                <div class="sep">
+                    <table>
+                        <tr>
+                            <td style="padding-right: 3px;">
+                                <div id="colorDiv"></div>
+                            </td>
+                            <td>
+                                <div>
+                                    <span id="rgb">rgb(255,255,255)</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="hex-a-rgb.js"></script>
+    </body>
+</html>

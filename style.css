@@ -1,0 +1,39 @@
+.color {
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    font-family: "comic sans ms";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cuerpo {
+    width: max-content;
+    border: solid 10px blue;
+    border-radius: 5px;
+}
+
+.hijo {
+    padding: 5px 10px 5px 10px;
+}
+
+.sep {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#mostrar-color, #colorDiv {
+    width: 20px;
+    height: 20px;
+    border: solid 5px black;
+    border-radius: 50%;
+}
+
+.michi {
+    font-size: 25px;
+}
+
+.HEX {
+    width: 35px;
+    text-align: center;
+}
